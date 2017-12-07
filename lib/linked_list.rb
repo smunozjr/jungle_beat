@@ -86,7 +86,7 @@ class LinkedList
     end
      quantity.times do
        result = ''
-       result.concat(' ' + current_node.next_node.data)
+       result.concat(' ' + current_node.data)
      end
 
   end

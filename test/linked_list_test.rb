@@ -134,7 +134,7 @@ class LinkedListTest < Minitest::Test
   end
 
   def test_find_shi
-    skip
+    
     list = LinkedList.new
     list.append('deep')
     list.append('woo')
@@ -146,7 +146,7 @@ class LinkedListTest < Minitest::Test
   end
 
   def test_find_woo_shi_shu
-    skip
+
     list = LinkedList.new
     list.append('deep')
     list.append('woo')
